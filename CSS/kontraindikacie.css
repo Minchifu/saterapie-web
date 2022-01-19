@@ -2,4 +2,7 @@ article {
     color: hsl(24, 100%, 21%) ;
     border: 3px solid hsl(24, 100%, 21%) ; 
     background-color: rgb(253, 219, 186);
+
+    padding: 30px;
+    margin: 10;
 }
