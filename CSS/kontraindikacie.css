@@ -6,3 +6,7 @@ article {
     padding: 30px;
     margin: 10;
 }
+
+li:hover{
+    background-color:rgb(250, 186, 123);
+}
