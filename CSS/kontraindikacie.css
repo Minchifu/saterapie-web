@@ -39,6 +39,11 @@ strong {
     font-size: 17px;
 }
 
+a {
+    text-align: center;
+    color: hsl(24, 100%, 21%);
+    text-decoration-color: hsl(24, 100%, 21%);
+}
 
 em {
     font-size: 12px;
