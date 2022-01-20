@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(255, 244, 232);
+}
+
+img {
+    width: 300px ;
+    border: thick double hsl(24, 100%, 21%) ;
+    border-radius: 50px;
+}
