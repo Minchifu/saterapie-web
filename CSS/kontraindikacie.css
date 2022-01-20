@@ -1,4 +1,5 @@
 article {
+    font-size: 14px;
     color: hsl(24, 100%, 21%) ;
     border: 3px solid hsl(24, 100%, 21%) ; 
     background-color: rgb(253, 219, 186);
@@ -7,11 +8,22 @@ article {
     margin: 10;
 }
 
+
 li:hover{
     background-color:rgb(250, 186, 123);
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
+
 
 em {
-    font-size: 14px;
+    font-size: 12px;
 }
+
+/* odstranenie • v li */
+.nodot {
+    list-style-type: none;
+   }
