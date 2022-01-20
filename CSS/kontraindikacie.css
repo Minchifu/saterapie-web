@@ -40,7 +40,6 @@ strong {
 }
 
 a {
-    text-align: center;
     color: hsl(24, 100%, 21%);
     text-decoration-color: hsl(24, 100%, 21%);
 }
@@ -48,6 +47,7 @@ a {
 em {
     font-size: 12px;
 }
+
 
 /* odstranenie • v li */
 .nodot {
