@@ -1,3 +1,11 @@
 body {
     background-color: rgb(255, 244, 232);
 }
+
+.button {
+   font-size: 20px;
+   background-color: orangered;
+   color: pink;
+
+   
+  }
