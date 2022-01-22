@@ -1,8 +1,16 @@
+/* * {outline: 3px solid black;} */
+
+body, 
+html {
+    margin: 0;
+} 
+
 body {
     background-color: rgb(255, 244, 232);
 }
 
-article {
+section, 
+header {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 24px;
@@ -50,7 +58,11 @@ em {
 }
 
 
-/* odstranenie • v li */
+.underline {
+    text-decoration: underline;
+    color: black;
+}
+
 .nodot {
     list-style-type: none;
    }
@@ -59,14 +71,24 @@ em {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color:  rgb(255, 244, 232);
-    text-align: left;
 
     border: 1px solid rgb(255, 244, 232);
-    border-radius: 12px;
+    border-radius: 8px;
     background-color: hsl(24, 100%, 21%);
-    padding: 4px 10px;
+    padding: 0px 10px;
 
-    text-align: right;
+    margin: 0px auto;
 
     cursor: pointer;
 }
+
+
+
+.buttoncenter {
+    text-align: center;
+} 
+
+.button {
+    margin: auto 0px;
+}
+
