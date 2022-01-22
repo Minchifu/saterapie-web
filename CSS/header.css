@@ -1,11 +1,26 @@
-header ul {
- /*    text-align: center; */
-    margin: 0px auto;
+* {
+    outline: 2px solid black
 }
 
-header li {
-    display: inline-block;
-    margin: 20px;
+
+#menu {
+    display: table;
+    margin: 0px auto;
+} 
+
+header ul,
+footer ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+header li,
+footer li{
+    display: inline-block;  
+    text-align: center; 
+    margin: 20px; 
+    list-style-type: none;
     padding: 1px 7px;
     text-transform: uppercase;
     font-size: 20px;
