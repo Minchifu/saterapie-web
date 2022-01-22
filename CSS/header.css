@@ -1,7 +1,26 @@
-* {
+/* * {
     outline: 2px solid black
+} */
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover {
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+a:visited{ 
+    color: hsl(24, 100%, 21%);
+}
+
+li:hover{
+    background-color:rgb(250, 186, 123);
+}
+#reservio {
+    background-color: rgb(255, 244, 232);
+}
 
 #menu {
     display: table;
@@ -19,9 +38,9 @@ header li,
 footer li{
     display: inline-block;  
     text-align: center; 
-    margin: 20px; 
+    margin: 22px 2px 10px 7px; 
     list-style-type: none;
-    padding: 1px 7px;
+    padding: 4px 10px;
     text-transform: uppercase;
     font-size: 20px;
     background-color: orange;
