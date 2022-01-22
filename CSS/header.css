@@ -5,6 +5,7 @@
 a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    color:hsl(24, 100%, 21%)
 }
 a:hover {
 
